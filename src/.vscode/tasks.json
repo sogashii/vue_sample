@@ -1,0 +1,43 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "yarn local-serve",
+      "detail": "ローカル実行",
+      "type": "shell",
+      "command": "yarn local-serve"
+    },
+    {
+      "label": "yarn local-build",
+      "detail": "ローカルビルド",
+      "type": "shell",
+      "command": "yarn local-build"
+    },
+    {
+      "label": "yarn dev-serve",
+      "detail": "開発環境実行",
+      "type": "shell",
+      "command": "yarn dev-serve"
+    },
+    {
+      "label": "yarn dev-build",
+      "detail": "開発環境ビルド",
+      "type": "shell",
+      "command": "yarn dev-build"
+    },
+    {
+      "label": "yarn prod-serve",
+      "detail": "本番環境実行",
+      "type": "shell",
+      "command": "yarn prod-serve"
+    },
+    {
+      "label": "yarn prod-build",
+      "detail": "本番環境ビルド",
+      "type": "shell",
+      "command": "yarn prod-build"
+    }
+  ]
+}

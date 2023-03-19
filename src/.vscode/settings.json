@@ -1,0 +1,31 @@
+{
+  // インデントは常に半角スペース
+  "editor.detectIndentation": false,
+
+  // インデントは半角スペース
+  "editor.insertSpaces": true,
+
+  // タブサイズ
+  "editor.tabSize": 2,
+
+  // タブ、空白スペースを表示
+  "editor.renderWhitespace": "boundary",
+
+  // formatterはprettierを使用
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // 改行コードCRLF
+  "files.eol": "\r\n",
+
+  // 末尾に1行足す
+  "files.insertFinalNewline": true,
+
+  // 行最後の空白文字を自動削除する
+  "files.trimTrailingWhitespace": true,
+
+  // ファイルの最後の行を自動削除する。「insertFinalNewline」と組み合わせて末尾1行空白になる。
+  "files.trimFinalNewlines": true,
+
+  // yarnを使用
+  "eslint.packageManager": "yarn"
+}
